@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.btn {
+  letter-spacing: 1px;
+  padding-inline: clamp(1rem, 3vw, 2rem);
+  padding-block: clamp(0.2rem, 2vw, 0.5rem);
+  border-radius: clamp(1px, 2vw, 8px);
+  outline: none;
+  border: none;
+  background-color: #6060fc;
+  font-weight: 500;
+  color: #d1caca;
+  font-size: clamp(0.8rem, 2.5vw, 1.2rem);
+  text-align: center;
+}
+
+.input {
+  border: 1px solid skyblue;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 1000px;
+  letter-spacing: 1px;
+  /* box-shadow: 0 0 4px transparent, 0px 0px 8px skyblue; */
+}
+
+textarea {
+  scrollbar-width: none;
+  resize: none;
+  column-count: 5;
+  border: 1px solid skyblue;
+  outline: none;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+  border-radius: clamp(1px, 2vw, 8px);
+}
+/* properties */
+.textCenter {
+  text-align: center;
+}
+
+.displayNone {
+  display: none;
+}
+
+.outlineNone {
+  outline: none;
+}
+
+.borderNone {
+  border: none;
+}
+
+.decorationNone {
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.radiusFull {
+  border-radius: 1000px;
+}
+
+/* margin utilities  */
+.mxAuto {
+  margin-inline: auto;
+}
+
+/* padding utilities */
+.padding1remX {
+  padding-inline: clamp(6px, 4vw, 1rem);
+}
+.padding2rem {
+  padding: 2rem;
+}
+
+/* flex properties  */
+.flex {
+  display: flex;
+}
+
+.itemsCenter {
+  align-items: center;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+.flexColumn {
+  flex-direction: column;
+}
+
+/* gap properties  */
+.gap2Rem {
+  gap: 2rem;
+}
+/* font utilities */
+
+.font2Rem {
+  font-size: clamp(1rem, 4vw, 2rem);
+}
+
+/* color utilities */
+
+/* background */
+.bgLightBlue {
+  background-color: rgb(106 136 202 / 70%);
+}
+
+.bggreen500 {
+  background-color: rgb(69, 121, 69);
+}
+
+/* color  */
+
+.brown500 {
+  color: #7c2b2b;
+}
+
+/* width utilities  */
+
+.widthFull {
+  width: 100vw;
+}
+
+.width100 {
+  width: 100%;
+}
+.width80 {
+  width: 80%;
+}
+
+.maxWidth9rem {
+  max-width: clamp(5.5rem, 18vw, 9rem);
+}
+
+.maxWidth500 {
+  max-width: 500px;
+  width: 100%;
+}
+.maxWidth800 {
+  max-width: 800px;
+  width: 100%;
+}
+
+.maxWidth1400 {
+  max-width: 1400px;
+  width: 100%;
+}
+
+/* height utilities  */
+.heightFull {
+  min-height: 100svh;
+}
+
+.minHeight100svh {
+  min-height: 100svh;
+}
+
+.minHeight600 {
+  min-height: 600px;
+}

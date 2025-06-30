@@ -1,0 +1,115 @@
+.Income {
+  background-color: rgb(61 119 61);
+}
+
+.Expense {
+  background-color: rgb(187 86 86);
+}
+
+.expenseContainer {
+  padding-inline: 0.2rem;
+}
+
+.expenseContainer .btnContainer {
+  margin-block: 1.5rem;
+}
+
+.expenseContainer table td {
+  width: 33%;
+}
+
+.expenseContainer table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.expenseContainer table th {
+  background-color: #1d75ed;
+  border-bottom: 2px solid #d1caca;
+  padding-block: 0.6rem;
+}
+
+.expenseContainer table .amountHeading div {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+}
+
+th .categoryFilterMenu select {
+  height: 100%;
+  width: 80%;
+  background: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  /* -webkit-appearance: none; */
+}
+
+td {
+  padding-block: 0.3rem;
+}
+
+/* transactionForm styling */
+
+.transactionForm {
+  background-color: white;
+  /* background: linear-gradient(45deg, #ce4bed00, #7b34a8, #2245b5); */
+  box-shadow: 2px 2px 6px gray;
+}
+
+.transactionForm .textField,
+.amountField,
+.selectField,
+.titleField {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.transactionForm .textField label,
+.amountField label,
+.selectField label,
+.titleField label {
+  margin-left: 1rem;
+}
+
+.transactionForm .titleField input:focus,
+.amountField input:focus,
+.selectField select:focus,
+.textField textarea:focus {
+  box-shadow: 0 0 4px transparent, 0px 0px 8px skyblue;
+}
+
+.transactionForm .selectField select {
+  border-radius: 1000px;
+  padding: 0.5rem 1rem;
+  border: 1px solid skyblue;
+  outline: none;
+}
+
+.titleField {
+  position: relative;
+}
+
+.transactionForm .textField p,
+.amountField p,
+.selectField p,
+.titleField p {
+  position: absolute;
+  margin: 0;
+  top: 105%;
+  left: 1rem;
+  color: red;
+}
+
+.transactionForm .amountField input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.transactionForm .submitBtn {
+  align-self: flex-end;
+}
